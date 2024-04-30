@@ -1,0 +1,69 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(19, 19, 31, 0.05);
+    padding: 16px;
+
+    margin-bottom: 50px;
+}
+
+.cabecalhoArticle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.date {
+    color: #717171;
+    font-family: "Lexend Deca", sans-serif;
+    size: 14px;
+    margin-bottom: 27px;
+}
+
+.title {
+    color: #1A202C;
+    font-family: "Lexend Deca";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    padding-bottom: 10px;
+}
+
+.describe {
+    color: #717171;
+    font-family: "Lexend Deca";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+    text-align: justify;
+}
+
+.fav {
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    article {
+        min-width: 320px;
+        max-width: 480px;
+        height: 235px;
+        margin-bottom: 20px;
+    }
+
+    .content {
+        width: auto;
+    }
+}

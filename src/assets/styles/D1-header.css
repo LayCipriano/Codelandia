@@ -1,0 +1,79 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+header {
+    background: linear-gradient(90deg, rgb(87, 74, 232) 0%, rgb(62, 161, 219) 100%);
+    font-family: "Lexend Deca", sans-serif;
+    color: white;
+    height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 100px;
+}
+
+.content {
+    width: 900px;
+}
+
+/* CABEÇALHO, LOGO E BLOG*/
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+/* BARRA DE PESQUISA */
+.pesquisa {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 5px;
+    
+    margin-top: 41px;
+    background-color: rgba(255, 255, 255, .2);
+    padding: 10px;
+}
+
+.pesquisa input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+}
+
+.pesquisa input::placeholder {
+    color: rgba(255, 255, 255, .4);
+}
+
+
+/* .logo .codeland {} */
+
+/* .logo .blog {} */
+
+@media (max-width: 480px) {
+
+    .content {
+        padding: 48px 20px 0 20px ;
+    }
+
+    header {
+        height: 200px;
+        font-size: 18px;
+        width: 480px;
+    
+        display: block;
+        margin-bottom: 0; 
+    }
+
+    .logo {
+        margin-bottom: 0;
+    }
+    
+}
+
