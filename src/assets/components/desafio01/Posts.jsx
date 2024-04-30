@@ -9,17 +9,17 @@ const posts = [{
     descricaoPost: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.'
 },
 {
-    dtpublicacao: '01 de mar, 2024',
+    dtPublicacao: '01 de mar, 2024',
     tituloPost: 'Tim Berners-Lee vai leiloar código-fonte da web',
     descricaoPost: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit lectus libero, id efficitur arcu viverra ac. Etiam sed sagittis velit, vitae convallis turpis. Praesent in purus non tellus tincidunt fermentum eu at sem. Curabitur lacus libero.'
 },
 {
-    dtpublicacao: '18 de abr, 2024',
+    dtPublicacao: '18 de abr, 2024',
     tituloPost: 'Tem Firefox novo no pedaço e você vai querer migrar',
-    descricaoPost: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit lectus libero, id efficitur arcu viverra ac. Etiam sed sagittis velit, vitae convallis turpis. Praesent in purus non tellus tincidunt fermentum eu at sem. Curabitur lacus libero.'
+    descricaoPost: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit lectus libero, id efficitur arcu viverra ac.'
 },
 {
-    dtpublicacao: '01 de mai, 2024',
+    dtPublicacao: '01 de mai, 2024',
     tituloPost: 'John MCAfee, criador do antivírus McAfee, morre',
     descricaoPost: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit lectus libero, id efficitur arcu viverra ac. Etiam sed sagittis velit, vitae convallis turpis. Praesent in purus non tellus tincidunt fermentum eu at sem. Curabitur lacus libero.'
 }
