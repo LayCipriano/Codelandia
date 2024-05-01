@@ -42,7 +42,7 @@ export const Posts = () => {
     return (
         <>
             {posts.map((posts, index) => (
-                <article key={index}>
+                <article className="postArea" key={index}>
                     <div className="cabecalhoArticle">
                         <div className="date">
                             <p>{posts.dtPublicacao}</p>

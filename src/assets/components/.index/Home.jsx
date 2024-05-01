@@ -4,7 +4,7 @@ import '../../styles/.index/Home.css'
 
 export const Home = () => {
     return (
-        <main>
+        <main className="mainIndex">
             <header className="headerProjetos">
                 <h1>Desafios Codelândia</h1>
 

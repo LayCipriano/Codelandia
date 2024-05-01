@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
 
 
-main {
+.mainIndex {
     font-family: "Lexend Deca";
     background-color: #E1E099;
 }
@@ -18,11 +18,11 @@ main {
     background-color: #070739;
 }
 
-main h1,
-p {
+.mainIndex h1,
+.mainIndex p {
     color: #E1E099;
 }
 
-main p {
+.mainIndex p {
     font-size: 12px;
 }
