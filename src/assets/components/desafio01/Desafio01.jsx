@@ -6,7 +6,6 @@ export const Desafio01 = () => {
         <>
             < Header />
             < Content />
-
         </>
     )
 }

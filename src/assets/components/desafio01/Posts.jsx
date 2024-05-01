@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { MdFavoriteBorder, MdFavorite } from "react-icons/md";
 
-import '../../styles/D1-content.css'
+import '../../styles/desafio01/D1-content.css'
 
 const posts = [{
     dtPublicacao: '30 de dez, 2023',

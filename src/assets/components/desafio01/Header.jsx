@@ -1,10 +1,10 @@
 import React from "react";
 import { GoSearch } from "react-icons/go";
-import '../../styles/D1-header.css';
+import '../../styles/desafio01/D1-header.css';
 
 export const Header = () => {
     return (
-        <header>
+        <header className="headerD1">
             <div className="content">
 
                 <div className='logo'>

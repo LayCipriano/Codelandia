@@ -1,0 +1,28 @@
+@import url(../reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+
+main {
+    font-family: "Lexend Deca";
+    background-color: #E1E099;
+}
+
+.headerProjetos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 140px;
+    text-align: center;
+    background-color: #070739;
+}
+
+main h1,
+p {
+    color: #E1E099;
+}
+
+main p {
+    font-size: 12px;
+}

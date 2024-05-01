@@ -1,0 +1,45 @@
+.projetos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 20px;
+    margin: 20px 30px 0 30px;
+}
+
+.itemProjeto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 352px;
+    height: 272px;
+    background-color: #fff;   
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .05);
+    padding: 10px;
+}
+
+#imgProjeto {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.titleProjeto {
+    padding: 5px;
+}
+
+.acessarProjeto {
+    width: 100%;
+    height: 32px;
+
+    background-color: #070739;
+    color: white;
+    
+    border: none;
+    border-radius: 3px;
+
+    cursor: pointer;
+}

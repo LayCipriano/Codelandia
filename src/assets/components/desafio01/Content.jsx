@@ -1,5 +1,5 @@
 import { Posts } from './Posts.jsx'
-import '../../styles/D1-content.css'
+import '../../styles/desafio01/D1-content.css'
 
 export const Content = () => {
     return (

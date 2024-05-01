@@ -1,7 +1,7 @@
-@import url('./reset.css');
+@import url('../reset.css');
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
 
-header {
+.headerD1 {
     background: linear-gradient(90deg, rgb(87, 74, 232) 0%, rgb(62, 161, 219) 100%);
     font-family: "Lexend Deca", sans-serif;
     color: white;
